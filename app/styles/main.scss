@@ -1,0 +1,54 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+#header{
+  height: 30px;
+  background-color:#f13544;
+  line-height:30px;
+  text-align:middle;
+}
+
+.social ul li{
+  float:right;
+  list-style:none;
+  padding-right:15px;
+}
+
+.twitter-feed{
+  
+  background-color:#f13544;
+  height:300px;
+}
+
+.team{
+  
+  border-bottom: 1px solid #ff0000;
+  
+
+}
+
+.inner-team{
+  text-align:center;
+
+}
+
+.event{
+  
+  background-image:url("/images/towels.png");
+  background-repeat:no-repeat;
+  height:205px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.test{
+  background-image:url("/images/an.png");
+  background-repeat:no-repeat;
+  height:50px;
+
+}
